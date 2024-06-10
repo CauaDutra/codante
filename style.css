@@ -79,10 +79,11 @@ h1 {
 .middle {
   display: flex;
   margin-top: 60px;
-  padding-left: 48px;
-  padding-right: 48px;
+  padding-left: 62px;
+  padding-right: 62px;
   margin-top: 96px;
   margin-bottom: 96px;
+  justify-content: space-between;
 }
 .video {
   border-radius: 15px;
