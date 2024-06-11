@@ -75,6 +75,12 @@ h1 {
   font-weight: 700;
   justify-content: center;
   margin-top: 5px;
+  background-image: url(pencil-stroke-dark.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 388px;
+  height: 90px;
 }
 .middle {
   display: flex;
@@ -137,16 +143,39 @@ h2 {
   padding-left: 16px;
 }
 .alunos {
-  border: 0.2px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  border: 0.2px solid rgba(255, 255, 255, 0.1);
   border-radius: 10px;
   padding: 16px;
-  margin-top: 170px;
+  margin-top: 100px;
+  flex-direction: column;
 }
 h3 {
-  display: flex;
   font-family: "Inter var", sans-serif;
-  color: white;
+  color: #d1d5db;
   font-weight: 400;
   font-size: 16px;
   margin: 0px;
+}
+.h3parte2 {
+  font-family: "Inter var", sans-serif;
+  color: #7b9fff;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 16px;
+}
+.fotosalunos {
+  display: flex;
+  padding: 5px;
+  margin-top: 10px;
+}
+.minhafoto {
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  border: 2px solid #1f2937;
+  margin-left: -16px;
+}
+.minhafoto:first-child {
+  margin-left: 0px;
 }
