@@ -179,5 +179,6 @@ h3 {
 .minhafoto:first-child {
   margin-left: 0px;
 }
-.video` {
+.video {
+  border-radius: 15px;
 }
