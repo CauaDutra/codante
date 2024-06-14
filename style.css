@@ -261,12 +261,12 @@ h5 {
   display: flex;
   flex-direction: row;
   margin-bottom: 30px;
-  gap: 100px;
+  justify-content: space-evenly;
 }
 .parte-baixo {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .vitrine1 {
   display: flex;
@@ -320,4 +320,96 @@ h5 {
 .info-vitrine-4 {
   padding-left: 50px;
   padding-right: 50px;
+}
+h6 {
+  font-family: "lexend", sans-serif;
+  color: white;
+  font-weight: 300;
+  font-size: 36px;
+  margin-bottom: 0;
+}
+.comunidade {
+  color: #5282ff;
+  font-weight: 300;
+}
+.plano-vitalicio {
+  font-weight: 250;
+  color: #7b9fff;
+}
+.tempo-limitado {
+  color: #7b9fff;
+  font-weight: 500;
+  text-decoration: underline;
+}
+.planos {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.gratuito {
+  display: flex;
+  flex-direction: column;
+  background-color: #17212b;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 384px;
+  height: 825px;
+  border: 1px solid #364c63;
+  border-radius: 20px;
+}
+.pago {
+  display: flex;
+  flex-direction: column;
+  background-color: #17212b;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 384px;
+  height: 825px;
+  border: 4px solid #5282ff;
+  border-radius: 20px;
+  box-shadow: 5px 10px 30px #4678b4;
+}
+.header-gratuito {
+  color: white;
+  width: 100%;
+  font-family: "lexend", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+.header-pago {
+  width: 100%;
+  color: #fbbf24;
+  font-family: "lexend", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+.vitalicio {
+  color: white;
+  font-family: "lexend", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+.valor-gratuito {
+  color: white;
+  font-family: "lexend", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+}
+.botao-gratuito {
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: white;
+  background-color: #232f3a;
+  font-family: "lexend", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  border: 1px solid #364c63;
+  border-radius: 5px;
 }
