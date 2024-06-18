@@ -262,64 +262,124 @@ h5 {
   flex-direction: row;
   margin-bottom: 30px;
   justify-content: space-evenly;
+  gap: 20px;
 }
 .parte-baixo {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  gap: 20px;
 }
 .vitrine1 {
   display: flex;
   background-color: #1e2b38;
   height: 576;
-  width: 402;
-  border: 5px solid #1e2b38;
+  width: 100%;
+  border: 1px solid #364c63;
   border-radius: 20px;
+  padding: 5px;
 }
-
-.info-vitrine-1 {
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
 .vitrine2 {
   display: flex;
   background-color: #1e2b38;
   height: 576;
-  width: 402;
-  border: 5px solid #1e2b38;
+  width: 100%;
+  border: 1px solid #364c63;
   border-radius: 20px;
+  padding: 5px;
 }
 
-.info-vitrine-2 {
-  padding-left: 50px;
-  padding-right: 50px;
+.info-vitrine {
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+  flex-direction: column;
 }
-.vitrine3 {
+.vitrine-nivel {
+  font-family: "Inter var", sans-serif;
+  font-weight: 700;
+  color: #9ca3af;
+  font-size: 12px;
+}
+.hvitrine {
+  font-family: "Inter var", sans-serif;
+  font-weight: 500;
+  color: white;
+  font-size: 24px;
+  margin: 3px;
+}
+.tag-vitrine {
+  font-family: "Inter var", sans-serif;
+  font-weight: 300;
+  color: #9ca3af;
+  font-size: 12px;
+}
+.tag-design {
+  background-color: #1e3a8a;
+  align-content: left;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 15px;
+}
+.vitrine-professor {
   display: flex;
-  background-color: #1e2b38;
-  height: 576;
-  width: 402;
-  border: 5px solid #1e2b38;
-  border-radius: 20px;
+  padding: 5px;
+  margin-top: 20px;
 }
-
-.info-vitrine-3 {
-  padding-left: 50px;
-  padding-right: 50px;
-}
-.vitrine4 {
+.vitrine-informacoes-professor {
   display: flex;
-  background-color: #1e2b38;
-  height: 576;
-  width: 402;
-  border: 5px solid #1e2b38;
-  border-radius: 20px;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: 2px;
 }
-
-.info-vitrine-4 {
-  padding-left: 50px;
-  padding-right: 50px;
+.minhafoto-vitrine {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+.vitrine-nome-professor {
+  font-family: "Inter var", sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 14px;
+  margin: 0px;
+}
+.vitrine-empresa-professor {
+  font-family: "Inter var", sans-serif;
+  font-weight: 300;
+  color: #9ca3af;
+  font-size: 12px;
+  margin: 0px;
+  margin-top: 4px;
+}
+.vitrine-foto {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.vitrine-texto {
+  font-family: "Inter var", sans-serif;
+  font-weight: 300;
+  color: #9ca3af;
+  font-size: 15px;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+.vitrine-stats {
+  font-family: "Inter var", sans-serif;
+  font-weight: 300;
+  color: #9ca3af;
+  font-size: 12px;
+  margin-top: 70px;
+}
+.vitrine-aulas {
+  margin-bottom: 2px;
+}
+.vitrine-chapeu {
+  height: 20px;
+  padding-bottom: -5px;
+}
+.vitrine-horas {
+  margin-top: 2px;
 }
 h6 {
   font-family: "lexend", sans-serif;
@@ -428,6 +488,9 @@ h6 {
   border: 1px solid #364c63;
   border-radius: 5px;
 }
+.botao-gratuito:hover {
+  background-color: #364c63;
+}
 .botao-pago {
   padding-left: 8px;
   padding-right: 8px;
@@ -440,6 +503,9 @@ h6 {
   font-weight: 400;
   border: none;
   border-radius: 5px;
+}
+.botao-pago:hover {
+  background-color: #345195;
 }
 .beneficios-gratuito {
   display: flex;
