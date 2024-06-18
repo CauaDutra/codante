@@ -381,6 +381,38 @@ h5 {
 .vitrine-horas {
   margin-top: 2px;
 }
+.vitrine-projetos {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.vitrine-projetos-1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #17212b;
+  border: 1px solid #364c63;
+  border-radius: 20px;
+  width: 344px;
+  padding: 5px;
+}
+.img-projetos {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 100%;
+}
+.info-projetos {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.h-vitrine-projetos {
+  font-family: "lexend", sans-serif;
+  color: white;
+  font-weight: 500;
+  font-size: 24px;
+  width: 100%;
+}
+.nivel-vitrine-projetos {
+}
 h6 {
   font-family: "lexend", sans-serif;
   color: white;
