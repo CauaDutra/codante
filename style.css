@@ -151,6 +151,7 @@ h2 {
   padding-bottom: 8px;
   padding-right: 16px;
   padding-left: 16px;
+  cursor: pointer;
 }
 .button2 {
   margin: 8px;
@@ -163,6 +164,7 @@ h2 {
   padding-bottom: 8px;
   padding-right: 16px;
   padding-left: 16px;
+  cursor: pointer;
 }
 .alunos {
   display: flex;
@@ -214,6 +216,23 @@ h3 {
   justify-content: center;
   border-top: 0.5px solid rgba(255, 255, 255, 0.1);
   margin: 10px;
+}
+.workshop-botao-todos {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+.workshops-todos {
+  width: fit-content;
+  color: white;
+  font-family: "Inter var", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: #1e2b38;
+  border-radius: 25px;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
 }
 h4 {
   display: flex;
@@ -278,6 +297,7 @@ h5 {
   border: 1px solid #364c63;
   border-radius: 20px;
   padding: 5px;
+  cursor: pointer;
 }
 .vitrine2 {
   display: flex;
@@ -287,6 +307,7 @@ h5 {
   border: 1px solid #364c63;
   border-radius: 20px;
   padding: 5px;
+  cursor: pointer;
 }
 
 .info-vitrine {
@@ -384,7 +405,6 @@ h5 {
 .vitrine-projetos {
   display: flex;
   justify-content: space-evenly;
-  gap: 20px;
 }
 .vitrine-projetos-1 {
   display: flex;
@@ -392,8 +412,9 @@ h5 {
   background-color: #17212b;
   border: 1px solid #364c63;
   border-radius: 20px;
-  width: 344px;
-  padding: 5px;
+  width: 368px;
+  padding: 3px;
+  cursor: pointer;
 }
 .img-projetos {
   border-top-left-radius: 20px;
@@ -411,7 +432,81 @@ h5 {
   font-size: 24px;
   width: 100%;
 }
-.nivel-vitrine-projetos {
+.stats-vitrine-projetos {
+  display: flex;
+  flex-direction: column;
+}
+.stats-vitrine-projetos1-nivel {
+  font-family: "lexend", sans-serif;
+  color: #9ca3af;
+  font-weight: 400;
+  font-size: 12px;
+}
+.stats-vitrine-projetos1-iniciante {
+  font-family: "lexend", sans-serif;
+  color: white;
+  font-weight: 300;
+  font-size: 14px;
+  border: 1px solid #364c63;
+  padding: 4px;
+  border-radius: 15px;
+}
+.info-projeto-texto {
+  display: flex;
+  flex-direction: column;
+}
+.info-projeto-divisoria {
+  display: flex;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.info-projeto-texto-aprender {
+  font-family: "lexend", sans-serif;
+  color: #9ca3af;
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+.info-projeto-texto-materias {
+  display: flex;
+  align-content: center;
+  font-family: "lexend", sans-serif;
+  color: white;
+  font-weight: 700;
+  font-size: 12px;
+  margin-top: 6px;
+}
+.ponto {
+  display: flex;
+  align-self: center;
+  width: 5px;
+  height: 5px;
+  background-color: #0000ff;
+  border-radius: 50%;
+  margin: 0px 10px;
+  border-top: 1px solid #1f2937;
+}
+.info-projeto-texto-descricao {
+  display: flex;
+  font-family: "lexend", sans-serif;
+  color: #9ca3af;
+  font-weight: 300;
+  font-size: 14px;
+  margin-top: 0px;
+}
+.info-projeto-texto-fotos {
+  display: flex;
+  justify-content: right;
+  align-items: baseline;
+  margin-top: 125px;
+  margin-bottom: 20px;
+}
+.info-projeto-texto-fotos2 {
+  display: flex;
+  justify-content: right;
+  align-items: baseline;
+  margin-top: 90px;
+  margin-bottom: 20px;
 }
 h6 {
   font-family: "lexend", sans-serif;
@@ -519,6 +614,7 @@ h6 {
   font-weight: 400;
   border: 1px solid #364c63;
   border-radius: 5px;
+  cursor: pointer;
 }
 .botao-gratuito:hover {
   background-color: #364c63;
@@ -535,6 +631,7 @@ h6 {
   font-weight: 400;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
 }
 .botao-pago:hover {
   background-color: #345195;
